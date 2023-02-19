@@ -27,7 +27,7 @@ const feedbackSchema = Schema({
 
 feedbackSchema.post("save", handleSaveErrors);
 
-const Feedback = model("contact", feedbackSchema);
+const Feedback = model("feedback", feedbackSchema);
 
 module.exports = {
   Feedback,
